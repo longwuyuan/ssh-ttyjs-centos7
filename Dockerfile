@@ -1,7 +1,4 @@
-# bitfusion.io - baseimage
-# TODO - Rewrite using official CentOS7
-
-# Use official centos7 image
+# CentOS7 + ssh + ttyjs (in Supervisord)
 FROM centos:centos7
 RUN \
   yum update -y && \
